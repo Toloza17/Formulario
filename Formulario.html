@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <title>Document</title>
+</head>
+<body background="Cerberus.gif">
+    <div id="mensaje"></div>
+    <form action="#" id="formulario" method="POST"> 
+        <ul>
+            <li>
+                <label for="nombre">Nombre: </label>
+                <p><input class="form-control input-sm" id="nombre" type="string" placeholder="Gerald" required></p>
+            </li>
+            <li>
+                <label for="Apellidos">Apellidos:</label>
+                <p><input class="form-control input-sm" id="apellidos" type="string" placeholder="De Rivia" required></p>
+            </li>
+            <li>
+                <label for="Rut">Rut:</label>
+                <p><input class="form-control input-sm" id="Rut" type="string" placeholder="20131313-0" required></p>
+            </li>
+            <li>
+                <label for="E-mail">E-mail:</label>
+                <p><input class="form-control input-sm" id="E-mail" type="email" placeholder="Gerald_RiviaSexy@gmail.com" required></p>
+            </li>
+            <li>
+                <label for="Telefono">Telefono:</label>
+                <p><input class="form-control input-sm" id="Telefono" type="number" placeholder="123456789" required></p>
+            </li>
+            <li>
+                <label for="inputdefault"><input type="checkbox" value="">Python</label>
+                <label for="inputdefault"><input type="checkbox" value="">Java</label>
+                <label for="inputdefault"><input type="checkbox" value="">TypeScript</label>
+                <label for="inputdefault"><input type="checkbox" value="">PHP</label>
+                <label for="inputdefault"><input type="checkbox" value="">C#</label>
+                <label for="inputdefault"><input type="checkbox" value="">C++</label>
+            </li>
+            <li>
+                <label for="inputdefault"> Conocimento de programación:</label>
+                <label for="inputdefault"><input type="range"></label>
+            </li>
+            <div id="texto"><label>¿Cuantos años de experiencia laboral tiene?</label></div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" required >1</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" required >2</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" required >3</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" required >4</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" required >5</label>
+                </div>
+                <div id="Texto"><label>Una descripcion breve acerca de usted</label></div>
+                <li>
+
+                    <textarea class="form-control" cols="50" rows="8" id="comment" maxlength="300" required></textarea>
+        
+                </li>
+                <li>
+                    <button id="inputsubmit" type="submit" class="formsubmit">Enviar</button>
+            
+                    <button id="inputreset" type="reset" class="btn btn-default">Borrar datos</button> 
+                    </li>
+                    </ul>
+                </form>
+                <script src="js/otronombre.js"></script>
+        </ul>
+    </form>
+</body>
+</html>
